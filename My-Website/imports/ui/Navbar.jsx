@@ -13,9 +13,9 @@ export const Navbar = () => (
     }}
   >
     <Link to="/">Home</Link>
-    <Link to="/cricket">Cricket</Link>
-    <Link to="/dramatics">Dramatics</Link>
     <Link to="/debates">Debates</Link>
+    <Link to="/dramatics">Dramatics</Link>
+    <Link to="/cricket">Cricket</Link>
     <Link to="/olympiads">Olympiads</Link>
     <Link to="/leadership">Leadership</Link>
   </nav>

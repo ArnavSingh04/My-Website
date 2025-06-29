@@ -89,3 +89,59 @@ section h2 {
   object-fit: contain; /* keeps aspect ratio inside box */
   border-radius: 6px;
 }
+
+.home-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: #333;
+}
+
+.intro-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  font-size: 1.2rem;
+  font-style: italic;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.bio-section p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.links-section {
+  margin-top: 2.5rem;
+}
+
+.links-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.links-grid {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 1.1rem;
+  color: #0077b5;
+  transition: color 0.2s ease;
+}
+
+.social-link:hover {
+  color: #005582;
+}
+
+.social-link svg {
+  font-size: 1.4rem;
+}
